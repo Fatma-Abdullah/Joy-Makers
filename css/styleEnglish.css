@@ -1,0 +1,29 @@
+body{
+    /* direction: ltr; */
+    font-family: inherit;
+    text-align: left;
+}
+nav{
+  font-family:inherit;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-family: inherit;
+}
+.para{
+  text-align:left !important;   
+}
+.tech .title {
+  text-align: left;
+}
+a.dropdown-item {
+  text-align: left;
+}
+#contact .para {
+  text-align: center !important;
+  margin-top: 0;
+  padding-top: 0;
+}
+#contact .headTitle{
+  margin-bottom: 10px;
+
+}
