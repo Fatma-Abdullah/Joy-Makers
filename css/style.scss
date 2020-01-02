@@ -33,26 +33,26 @@ body {
 }
 
 .navbar-scroll {
-    background-color: rgba(41, 22, 8, 0.85);
+    background-color: rgba(45, 6, 19, 0.85);
     transition: background-color 0.5s;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
     color: white;
     text-decoration: none;
-    background-color: #E57023;
+    background-color: #ff10ce;
 }
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #E57023;
+    background-color: #ff10ce;
 }
 nav .nav-link:hover {
-    color: #E57023;
+    color: #ff10ce;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
-    color: #E57023;
+    color: #ff10ce;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -74,11 +74,11 @@ nav .nav-link:hover {
     position: relative;
     width: 100%;
     .dark{
-        background-color: #311910;
+        background-color: rgba(45, 6, 19, 1);
     }
     .navbar-brand{
         img{
-            width: 4em;
+            width: 7em;
             height: 2em;
         }
     }
@@ -211,7 +211,7 @@ nav {
 }
 
 #whatWeDo {
-    background-color: #311910;
+    background-image: linear-gradient(to right, rgb(56, 60, 134),#DC15BB);
     color: #fff;
     .headTitle {
         color: #fff;
@@ -232,7 +232,7 @@ nav {
                 
             text-decoration: none;
             h3{
-                color:#E57023;
+                color:#ff10ce;
             }
             }
         }
@@ -294,7 +294,7 @@ nav {
                 h3 {
                     font-size: 20px;
                     margin-top: 15px;
-                    color: #E57023;
+                    color: #ff10ce;
                 }
 
                 span {
@@ -309,7 +309,7 @@ nav {
                     &::before {
                         content: open-quote;
                         font-size: 50px;
-                        color: #E57023;
+                        color: #ff10ce;
                         position: relative;
                         line-height: 20px;
                         bottom: -15px;
@@ -319,7 +319,7 @@ nav {
                     &::after {
                         content: close-quote;
                         font-size: 50px;
-                        color: #E57023;
+                        color: #ff10ce;
                         position: relative;
                         line-height: 10px;
                         bottom: -15px;
@@ -339,8 +339,8 @@ nav {
     width: 80%;
 }
 #vision {
-    background-color: #311910;
     color: #fff;
+    background-image: linear-gradient(to right, rgb(56, 60, 134),#DC15BB);
     .headTitle {
         color: #fff;
     }
@@ -362,7 +362,7 @@ nav {
 
         &::after {
             content: '';
-            background: #E57023;
+            background: #ff10ce;
             display: block;
             height: 3px;
             width: 170px;
@@ -373,7 +373,7 @@ nav {
     .fab {
         height: 25px;
         width: 25px;
-        color: #E57023 !important;
+        color: #ff10ce !important;
         background: #fff;
         padding: 6px;
         border-radius: 50%;
@@ -424,7 +424,7 @@ nav {
             font-size: 22px;
             font-weight: bold;
             margin-top: 15px;
-            color: #E57023 !important;
+            color: #ff10ce !important;
         }
 
         h3 {
@@ -536,7 +536,7 @@ nav {
 
     i {
         color: white;
-        background: #311910;
+        background-image: linear-gradient(to right, rgb(56, 60, 134),#DC15BB);
         padding: 11px;
         font-size: 17px;
     }
@@ -544,17 +544,17 @@ nav {
     .form {
         // padding: 2em;
         padding: 40px 40px 5px;
-        background-color: #311910;
+        background-image: linear-gradient(to right, rgb(56, 60, 134),#DC15BB);
 
         .form-control {
             border-radius: 0;
             border: none;
             border-bottom: 1px solid gray;
-            background: #311910;
+            background-image: linear-gradient(to right, rgb(56, 60, 134),#DC15BB);
 
             &:focus {
                 color: white;
-                border-bottom: 1px solid #E57023;
+                border-bottom: 1px solid #ff10ce;
             }
         }
 
@@ -742,8 +742,8 @@ div.git {
 
 /*copyRights*/
 .copyRights {
-    background-color: #311910;
-    text-align: center;
+    background-color: rgba(45, 6, 19, 1);
+        text-align: center;
     margin: auto;
     line-height: 4;
     bottom: 0;
@@ -762,7 +762,7 @@ div.git {
             padding-left: 1em;
 
             &:hover {
-                color: #E57023;
+                color: #ff10ce;
                 text-decoration: none;
             }
         }
@@ -773,7 +773,7 @@ div.git {
             margin-top: 1.5%;
 
             &:hover {
-                color: #E57023;
+                color: #ff10ce;
             }
         }
 
